@@ -30,6 +30,30 @@ a{
    color: rgb(224, 0, 0)
 
 }
+.btnLogin {
+	padding: 10px 20px;
+    background: #2c7bc557;
+    border: #d1e8ff 1px solid;
+    color: #FFF;
+}
+.btnLogin:hover{
+	padding: 10px 20px;
+    background: #2c7bc5b6;
+    border: #d1e8ff 1px solid;
+    color: #FFF;
+}
+.btnRegister {
+	padding: 10px 20px;
+    background: #5cc52c80;
+    border: #d1e8ff 1px solid;
+    color: #FFF;
+}
+.btnRegister:hover{
+    padding: 10px 20px;
+    background: #5cc52cb9;
+    border: #d1e8ff 1px solid;
+    color: #FFF;
+}
 
 div.sticky {
     position: -webkit-sticky;
@@ -43,7 +67,6 @@ div.sticky {
     margin-left: 30px;
     text-decoration: none;
     padding-bottom: 10px;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.253);
     font-weight: 100;
     font-size: 15px;
 }
