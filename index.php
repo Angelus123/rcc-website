@@ -30,6 +30,7 @@ $cards_f = $cards_pdf;
     <link rel="icon" href="./asset/image/logo.png" />
     <title>Home|RCC</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <link rel="stylesheet"
     href="./asset/css/styles.css">
 
@@ -56,6 +57,7 @@ $cards_f = $cards_pdf;
                 <br>
                 <b>Rwanda-Kigali KK403t</b>
             </div>
+           
         </div>
         <div class="header-title ">   
             <h1 >Renouvaux Charsimatique Chatholique Rwanda(RCC)</h1>
@@ -74,15 +76,22 @@ $cards_f = $cards_pdf;
     </div>
     
     <div class="sticky" style="background-color:red"> 
-        <span style="background-color:red">
+    
+        <span>
+        
             <nav class="fixed "  style=" width: 100%; padding:0 0 20px 0; float: right;background-color:white">
-                <span style=" padding:0 30px 10px 0; float: right;background-color:white"> 
+            
+            <span style=" padding:0 30px 10px 0; float: right;background-color:white"> 
                     <a href="./index.php" style="color:red">HOMEPAGE</a>
                     <a href="./component/events.php">EVENTS</a>
                     <a href="./component/about.html">ABOUT US</a>
                     <a href="./component/support.html">SUPPORT US</a>
                     <a href="./component/contact.html">CONTACT US</a>
+                   
                 </span>
+                <div style="display:flex">
+                <a href="./container/auth"><button class ="btnLogin">LOGIN</button></a><a href="./container/auth/register.php"> <button class ="btnRegister">REGISTER</button></a>
+            </div>
             </nav>
         </span>  
     </div>   
